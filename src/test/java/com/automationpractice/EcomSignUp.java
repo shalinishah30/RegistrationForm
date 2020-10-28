@@ -89,6 +89,7 @@ import java.util.concurrent.TimeUnit;
 			  Assert.assertEquals(actualErrorMsg, expectedErrorMsg);
 			  
 			  waitForPageLoaded();
+			  driver.close();
 		 }
 		//Few test scenarios as below
 		// Verifying redirection to the terms and conditions page
@@ -107,7 +108,8 @@ import java.util.concurrent.TimeUnit;
 		// Registration with providing invalid user phone number field
 		// Test for a valid Phone number
 		// Registration without accepting terms and condition tickbox
-				  
+		 
+		  
 		}
 		
 
