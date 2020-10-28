@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="80322" started-at="2020-10-28T15:45:46 IST" finished-at="2020-10-28T15:47:07 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="80322" started-at="2020-10-28T15:45:46 IST" finished-at="2020-10-28T15:47:07 IST">
+      <class name="com.automationpractice.EcomSignUp">
+        <test-method status="PASS" signature="launch()[pri:0, instance:com.automationpractice.EcomSignUp@369f73a2]" name="launch" is-config="true" duration-ms="71457" started-at="2020-10-28T15:45:46 IST" finished-at="2020-10-28T15:46:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="verifyElemntsOnPageTest()[pri:0, instance:com.automationpractice.EcomSignUp@369f73a2]" name="verifyElemntsOnPageTest" duration-ms="8698" started-at="2020-10-28T15:46:58 IST" finished-at="2020-10-28T15:47:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElemntsOnPageTest -->
+      </class> <!-- com.automationpractice.EcomSignUp -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
